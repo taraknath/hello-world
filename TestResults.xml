@@ -1,0 +1,602 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<test-results xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="nunit_schema_2.5.xsd" name="Pester" total="452" errors="0" failures="9" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2016-07-07" time="10:00:27">
+  <environment user="sqlapp_svc" machine-name="TARAKSTK20-B" cwd="SQLSERVER:\" user-domain="test" platform="Microsoft Windows Server 2012 R2 Standard|C:\Windows|\Device\Harddisk0\Partition2" nunit-version="2.5.8.0" os-version="6.3.9600" clr-version="4.0.30319.42000" />
+  <culture-info current-culture="en-US" current-uiculture="en-US" />
+  <test-suite type="Powershell" name="Pester" executed="True" result="Failure" success="False" time="84.4499" asserts="0">
+    <results>
+      <test-suite type="TestFixture" name="Test-DiskConfig" executed="True" result="Success" success="True" time="20.1222" asserts="0" description="Test-DiskConfig">
+        <results>
+          <test-case description="E Volume Health" name="Test-DiskConfig.E Volume Health" executed="True" time="19.532" asserts="0" success="True" result="Success" />
+          <test-case description="X Volume Health" name="Test-DiskConfig.X Volume Health" executed="True" time="0.2811" asserts="0" success="True" result="Success" />
+          <test-case description="Y Volume Health" name="Test-DiskConfig.Y Volume Health" executed="True" time="0.0171" asserts="0" success="True" result="Success" />
+          <test-case description="Z Volume Health" name="Test-DiskConfig.Z Volume Health" executed="True" time="0.0137" asserts="0" success="True" result="Success" />
+          <test-case description="C Volume Health" name="Test-DiskConfig.C Volume Health" executed="True" time="0.0137" asserts="0" success="True" result="Success" />
+          <test-case description="E Volume File System" name="Test-DiskConfig.E Volume File System" executed="True" time="0.0673" asserts="0" success="True" result="Success" />
+          <test-case description="X Volume File System" name="Test-DiskConfig.X Volume File System" executed="True" time="0.0169" asserts="0" success="True" result="Success" />
+          <test-case description="Y Volume File System" name="Test-DiskConfig.Y Volume File System" executed="True" time="0.0172" asserts="0" success="True" result="Success" />
+          <test-case description="Z Volume File System" name="Test-DiskConfig.Z Volume File System" executed="True" time="0.0171" asserts="0" success="True" result="Success" />
+          <test-case description="C Volume File System" name="Test-DiskConfig.C Volume File System" executed="True" time="0.0174" asserts="0" success="True" result="Success" />
+          <test-case description="E Volume File System Label" name="Test-DiskConfig.E Volume File System Label" executed="True" time="0.0842" asserts="0" success="True" result="Success" />
+          <test-case description="X Volume File System Label" name="Test-DiskConfig.X Volume File System Label" executed="True" time="0.0142" asserts="0" success="True" result="Success" />
+          <test-case description="Y Volume File System Label" name="Test-DiskConfig.Y Volume File System Label" executed="True" time="0.0138" asserts="0" success="True" result="Success" />
+          <test-case description="Z Volume File System Label" name="Test-DiskConfig.Z Volume File System Label" executed="True" time="0.0165" asserts="0" success="True" result="Success" />
+        </results>
+      </test-suite>
+      <test-suite type="TestFixture" name="Test-DomainJoin" executed="True" result="Success" success="True" time="0.124" asserts="0" description="Test-DomainJoin">
+        <results>
+          <test-case description="Domain Join" name="Test-DomainJoin.Domain Join" executed="True" time="0.124" asserts="0" success="True" result="Success" />
+        </results>
+      </test-suite>
+      <test-suite type="TestFixture" name="Test-ServiceSetup" executed="True" result="Success" success="True" time="26.8916" asserts="0" description="Test-ServiceSetup">
+        <results>
+          <test-case description="Service Startup Account" name="Test-ServiceSetup.Service Startup Account" executed="True" time="24.725" asserts="0" success="True" result="Success" />
+          <test-case description="Start Mode" name="Test-ServiceSetup.Start Mode" executed="True" time="0.0491" asserts="0" success="True" result="Success" />
+          <test-case description="Service State" name="Test-ServiceSetup.Service State" executed="True" time="0.022" asserts="0" success="True" result="Success" />
+          <test-case description="Status Check" name="Test-ServiceSetup.Status Check" executed="True" time="0.0216" asserts="0" success="True" result="Success" />
+          <test-case description="Service Startup Account" name="Test-ServiceSetup.Service Startup Account" executed="True" time="0.2558" asserts="0" success="True" result="Success" />
+          <test-case description="Start Mode" name="Test-ServiceSetup.Start Mode" executed="True" time="0.0144" asserts="0" success="True" result="Success" />
+          <test-case description="Service State" name="Test-ServiceSetup.Service State" executed="True" time="0.014" asserts="0" success="True" result="Success" />
+          <test-case description="Status Check" name="Test-ServiceSetup.Status Check" executed="True" time="0.0135" asserts="0" success="True" result="Success" />
+          <test-case description="Service Startup Account" name="Test-ServiceSetup.Service Startup Account" executed="True" time="0.2399" asserts="0" success="True" result="Success" />
+          <test-case description="Start Mode" name="Test-ServiceSetup.Start Mode" executed="True" time="0.0288" asserts="0" success="True" result="Success" />
+          <test-case description="Service State" name="Test-ServiceSetup.Service State" executed="True" time="0.0171" asserts="0" success="True" result="Success" />
+          <test-case description="Status Check" name="Test-ServiceSetup.Status Check" executed="True" time="0.0379" asserts="0" success="True" result="Success" />
+          <test-case description="Service Startup Account" name="Test-ServiceSetup.Service Startup Account" executed="True" time="0.2037" asserts="0" success="True" result="Success" />
+          <test-case description="Start Mode" name="Test-ServiceSetup.Start Mode" executed="True" time="0.0135" asserts="0" success="True" result="Success" />
+          <test-case description="Service State" name="Test-ServiceSetup.Service State" executed="True" time="0.0135" asserts="0" success="True" result="Success" />
+          <test-case description="Status Check" name="Test-ServiceSetup.Status Check" executed="True" time="0.0135" asserts="0" success="True" result="Success" />
+          <test-case description="Start Mode" name="Test-ServiceSetup.Start Mode" executed="True" time="0.1733" asserts="0" success="True" result="Success" />
+          <test-case description="Service State" name="Test-ServiceSetup.Service State" executed="True" time="0.1484" asserts="0" success="True" result="Success" />
+          <test-case description="Status Check" name="Test-ServiceSetup.Status Check" executed="True" time="0.0177" asserts="0" success="True" result="Success" />
+          <test-case description="Start Mode" name="Test-ServiceSetup.Start Mode" executed="True" time="0.6224" asserts="0" success="True" result="Success" />
+          <test-case description="Service State" name="Test-ServiceSetup.Service State" executed="True" time="0.013" asserts="0" success="True" result="Success" />
+          <test-case description="Status Check" name="Test-ServiceSetup.Status Check" executed="True" time="0.0128" asserts="0" success="True" result="Success" />
+          <test-case description="Service Startup Account" name="Test-ServiceSetup.Service Startup Account" executed="True" time="0.1791" asserts="0" success="True" result="Success" />
+          <test-case description="Start Mode" name="Test-ServiceSetup.Start Mode" executed="True" time="0.0128" asserts="0" success="True" result="Success" />
+          <test-case description="Service State" name="Test-ServiceSetup.Service State" executed="True" time="0.0161" asserts="0" success="True" result="Success" />
+          <test-case description="Status Check" name="Test-ServiceSetup.Status Check" executed="True" time="0.0127" asserts="0" success="True" result="Success" />
+        </results>
+      </test-suite>
+      <test-suite type="TestFixture" name="Test-ScriptRunner" executed="True" result="Success" success="True" time="0.0738" asserts="0" description="Test-ScriptRunner">
+        <results>
+          <test-case description="UPDATED API Key" name="Test-ScriptRunner.UPDATED API Key" executed="True" time="0.0738" asserts="0" success="True" result="Success" />
+        </results>
+      </test-suite>
+      <test-suite type="TestFixture" name="Test-Folders" executed="True" result="Success" success="True" time="8.2859" asserts="0" description="Test-Folders">
+        <results>
+          <test-case description="Utilities folder location" name="Test-Folders.Utilities folder location" executed="True" time="0.0783" asserts="0" success="True" result="Success" />
+          <test-case description="Data folder location" name="Test-Folders.Data folder location" executed="True" time="0.0133" asserts="0" success="True" result="Success" />
+          <test-case description="Logs folder location" name="Test-Folders.Logs folder location" executed="True" time="0.0131" asserts="0" success="True" result="Success" />
+          <test-case description="Tempdb folder location" name="Test-Folders.Tempdb folder location" executed="True" time="0.0132" asserts="0" success="True" result="Success" />
+          <test-case description="Backup folder location" name="Test-Folders.Backup folder location" executed="True" time="0.0131" asserts="0" success="True" result="Success" />
+          <test-case description="Jobs folder location" name="Test-Folders.Jobs folder location" executed="True" time="0.0131" asserts="0" success="True" result="Success" />
+          <test-case description="TempdbLogs folder location" name="Test-Folders.TempdbLogs folder location" executed="True" time="0.0135" asserts="0" success="True" result="Success" />
+          <test-case description="SystemData folder location" name="Test-Folders.SystemData folder location" executed="True" time="0.0132" asserts="0" success="True" result="Success" />
+          <test-case description="ScriptRunner folder location" name="Test-Folders.ScriptRunner folder location" executed="True" time="0.0136" asserts="0" success="True" result="Success" />
+          <test-case description="Restore folder location" name="Test-Folders.Restore folder location" executed="True" time="0.0132" asserts="0" success="True" result="Success" />
+          <test-case description="Scripts folder location" name="Test-Folders.Scripts folder location" executed="True" time="0.0134" asserts="0" success="True" result="Success" />
+          <test-case description="ImportExport folder location" name="Test-Folders.ImportExport folder location" executed="True" time="0.0133" asserts="0" success="True" result="Success" />
+          <test-case description="SystemLog folder location" name="Test-Folders.SystemLog folder location" executed="True" time="0.021" asserts="0" success="True" result="Success" />
+          <test-case description="RestoreProcess folder location" name="Test-Folders.RestoreProcess folder location" executed="True" time="0.0134" asserts="0" success="True" result="Success" />
+          <test-case description="Utilities folder owner" name="Test-Folders.Utilities folder owner" executed="True" time="0.0832" asserts="0" success="True" result="Success" />
+          <test-case description="Utilities folder test\sqltest_svc access " name="Test-Folders.Utilities folder test\sqltest_svc access " executed="True" time="0.0421" asserts="0" success="True" result="Success" />
+          <test-case description="Utilities folder test\sqltest_svc rights " name="Test-Folders.Utilities folder test\sqltest_svc rights " executed="True" time="0.0197" asserts="0" success="True" result="Success" />
+          <test-case description="Utilities folder test\sqltest_svc inheritance " name="Test-Folders.Utilities folder test\sqltest_svc inheritance " executed="True" time="0.0199" asserts="0" success="True" result="Success" />
+          <test-case description="Utilities folder test\apitest_svc access " name="Test-Folders.Utilities folder test\apitest_svc access " executed="True" time="0.0138" asserts="0" success="True" result="Success" />
+          <test-case description="Utilities folder test\apitest_svc rights " name="Test-Folders.Utilities folder test\apitest_svc rights " executed="True" time="0.0136" asserts="0" success="True" result="Success" />
+          <test-case description="Utilities folder test\apitest_svc inheritance " name="Test-Folders.Utilities folder test\apitest_svc inheritance " executed="True" time="0.0174" asserts="0" success="True" result="Success" />
+          <test-case description="Utilities folder NT AUTHORITY\SYSTEM access " name="Test-Folders.Utilities folder NT AUTHORITY\SYSTEM access " executed="True" time="0.0137" asserts="0" success="True" result="Success" />
+          <test-case description="Utilities folder NT AUTHORITY\SYSTEM rights " name="Test-Folders.Utilities folder NT AUTHORITY\SYSTEM rights " executed="True" time="0.0134" asserts="0" success="True" result="Success" />
+          <test-case description="Utilities folder NT AUTHORITY\SYSTEM inheritance " name="Test-Folders.Utilities folder NT AUTHORITY\SYSTEM inheritance " executed="True" time="0.0142" asserts="0" success="True" result="Success" />
+          <test-case description="Utilities folder BUILTIN\Administrators access " name="Test-Folders.Utilities folder BUILTIN\Administrators access " executed="True" time="0.014" asserts="0" success="True" result="Success" />
+          <test-case description="Utilities folder BUILTIN\Administrators rights " name="Test-Folders.Utilities folder BUILTIN\Administrators rights " executed="True" time="0.0141" asserts="0" success="True" result="Success" />
+          <test-case description="Utilities folder BUILTIN\Administrators inheritance " name="Test-Folders.Utilities folder BUILTIN\Administrators inheritance " executed="True" time="0.0207" asserts="0" success="True" result="Success" />
+          <test-case description="Utilities folder BUILTIN\Users rights" name="Test-Folders.Utilities folder BUILTIN\Users rights" executed="True" time="0.0179" asserts="0" success="True" result="Success" />
+          <test-case description="Utilities folder BUILTIN\Users rights" name="Test-Folders.Utilities folder BUILTIN\Users rights" executed="True" time="0.0141" asserts="0" success="True" result="Success" />
+          <test-case description="Utilities folder BUILTIN\Users rights" name="Test-Folders.Utilities folder BUILTIN\Users rights" executed="True" time="0.0144" asserts="0" success="True" result="Success" />
+          <test-case description="Data folder owner" name="Test-Folders.Data folder owner" executed="True" time="0.068" asserts="0" success="True" result="Success" />
+          <test-case description="Data folder test\sqltest_svc access " name="Test-Folders.Data folder test\sqltest_svc access " executed="True" time="0.0161" asserts="0" success="True" result="Success" />
+          <test-case description="Data folder test\sqltest_svc rights " name="Test-Folders.Data folder test\sqltest_svc rights " executed="True" time="0.0172" asserts="0" success="True" result="Success" />
+          <test-case description="Data folder test\sqltest_svc inheritance " name="Test-Folders.Data folder test\sqltest_svc inheritance " executed="True" time="0.0205" asserts="0" success="True" result="Success" />
+          <test-case description="Data folder test\apitest_svc access " name="Test-Folders.Data folder test\apitest_svc access " executed="True" time="0.0175" asserts="0" success="True" result="Success" />
+          <test-case description="Data folder test\apitest_svc rights " name="Test-Folders.Data folder test\apitest_svc rights " executed="True" time="0.0177" asserts="0" success="True" result="Success" />
+          <test-case description="Data folder test\apitest_svc inheritance " name="Test-Folders.Data folder test\apitest_svc inheritance " executed="True" time="0.017" asserts="0" success="True" result="Success" />
+          <test-case description="Data folder NT AUTHORITY\SYSTEM access " name="Test-Folders.Data folder NT AUTHORITY\SYSTEM access " executed="True" time="0.0166" asserts="0" success="True" result="Success" />
+          <test-case description="Data folder NT AUTHORITY\SYSTEM rights " name="Test-Folders.Data folder NT AUTHORITY\SYSTEM rights " executed="True" time="0.0182" asserts="0" success="True" result="Success" />
+          <test-case description="Data folder NT AUTHORITY\SYSTEM inheritance " name="Test-Folders.Data folder NT AUTHORITY\SYSTEM inheritance " executed="True" time="0.0133" asserts="0" success="True" result="Success" />
+          <test-case description="Data folder BUILTIN\Administrators access " name="Test-Folders.Data folder BUILTIN\Administrators access " executed="True" time="0.0133" asserts="0" success="True" result="Success" />
+          <test-case description="Data folder BUILTIN\Administrators rights " name="Test-Folders.Data folder BUILTIN\Administrators rights " executed="True" time="0.0133" asserts="0" success="True" result="Success" />
+          <test-case description="Data folder BUILTIN\Administrators inheritance " name="Test-Folders.Data folder BUILTIN\Administrators inheritance " executed="True" time="0.0134" asserts="0" success="True" result="Success" />
+          <test-case description="Data folder BUILTIN\Users rights" name="Test-Folders.Data folder BUILTIN\Users rights" executed="True" time="0.013" asserts="0" success="True" result="Success" />
+          <test-case description="Data folder BUILTIN\Users rights" name="Test-Folders.Data folder BUILTIN\Users rights" executed="True" time="0.0146" asserts="0" success="True" result="Success" />
+          <test-case description="Data folder BUILTIN\Users rights" name="Test-Folders.Data folder BUILTIN\Users rights" executed="True" time="0.013" asserts="0" success="True" result="Success" />
+          <test-case description="Data SMB Share Exits" name="Test-Folders.Data SMB Share Exits" executed="True" time="2.4517" asserts="0" success="True" result="Success" />
+          <test-case description="Data SMB Share Path" name="Test-Folders.Data SMB Share Path" executed="True" time="0.0218" asserts="0" success="True" result="Success" />
+          <test-case description="Data SMB Share test\GRA-SQLDBAAdmins Access" name="Test-Folders.Data SMB Share test\GRA-SQLDBAAdmins Access" executed="True" time="0.0747" asserts="0" success="True" result="Success" />
+          <test-case description="Data SMB Share test\GRA-SQLDBAAdmins Control" name="Test-Folders.Data SMB Share test\GRA-SQLDBAAdmins Control" executed="True" time="0.0274" asserts="0" success="True" result="Success" />
+          <test-case description="Data SMB Share  Rights" name="Test-Folders.Data SMB Share  Rights" executed="True" time="0.0273" asserts="0" success="True" result="Success" />
+          <test-case description="Data SMB Share test\sqltest_svc Access" name="Test-Folders.Data SMB Share test\sqltest_svc Access" executed="True" time="0.0134" asserts="0" success="True" result="Success" />
+          <test-case description="Data SMB Share test\sqltest_svc Control" name="Test-Folders.Data SMB Share test\sqltest_svc Control" executed="True" time="0.0134" asserts="0" success="True" result="Success" />
+          <test-case description="Data SMB Share  Rights" name="Test-Folders.Data SMB Share  Rights" executed="True" time="0.013" asserts="0" success="True" result="Success" />
+          <test-case description="Data SMB Share test\apitest_svc Access" name="Test-Folders.Data SMB Share test\apitest_svc Access" executed="True" time="0.0134" asserts="0" success="True" result="Success" />
+          <test-case description="Data SMB Share test\apitest_svc Control" name="Test-Folders.Data SMB Share test\apitest_svc Control" executed="True" time="0.0133" asserts="0" success="True" result="Success" />
+          <test-case description="Data SMB Share  Rights" name="Test-Folders.Data SMB Share  Rights" executed="True" time="0.013" asserts="0" success="True" result="Success" />
+          <test-case description="Logs folder owner" name="Test-Folders.Logs folder owner" executed="True" time="0.0772" asserts="0" success="True" result="Success" />
+          <test-case description="Logs folder test\sqltest_svc access " name="Test-Folders.Logs folder test\sqltest_svc access " executed="True" time="0.0202" asserts="0" success="True" result="Success" />
+          <test-case description="Logs folder test\sqltest_svc rights " name="Test-Folders.Logs folder test\sqltest_svc rights " executed="True" time="0.0912" asserts="0" success="True" result="Success" />
+          <test-case description="Logs folder test\sqltest_svc inheritance " name="Test-Folders.Logs folder test\sqltest_svc inheritance " executed="True" time="0.0151" asserts="0" success="True" result="Success" />
+          <test-case description="Logs folder test\apitest_svc access " name="Test-Folders.Logs folder test\apitest_svc access " executed="True" time="0.0133" asserts="0" success="True" result="Success" />
+          <test-case description="Logs folder test\apitest_svc rights " name="Test-Folders.Logs folder test\apitest_svc rights " executed="True" time="0.0132" asserts="0" success="True" result="Success" />
+          <test-case description="Logs folder test\apitest_svc inheritance " name="Test-Folders.Logs folder test\apitest_svc inheritance " executed="True" time="0.0134" asserts="0" success="True" result="Success" />
+          <test-case description="Logs folder NT AUTHORITY\SYSTEM access " name="Test-Folders.Logs folder NT AUTHORITY\SYSTEM access " executed="True" time="0.0133" asserts="0" success="True" result="Success" />
+          <test-case description="Logs folder NT AUTHORITY\SYSTEM rights " name="Test-Folders.Logs folder NT AUTHORITY\SYSTEM rights " executed="True" time="0.0134" asserts="0" success="True" result="Success" />
+          <test-case description="Logs folder NT AUTHORITY\SYSTEM inheritance " name="Test-Folders.Logs folder NT AUTHORITY\SYSTEM inheritance " executed="True" time="0.0135" asserts="0" success="True" result="Success" />
+          <test-case description="Logs folder BUILTIN\Administrators access " name="Test-Folders.Logs folder BUILTIN\Administrators access " executed="True" time="0.0134" asserts="0" success="True" result="Success" />
+          <test-case description="Logs folder BUILTIN\Administrators rights " name="Test-Folders.Logs folder BUILTIN\Administrators rights " executed="True" time="0.0134" asserts="0" success="True" result="Success" />
+          <test-case description="Logs folder BUILTIN\Administrators inheritance " name="Test-Folders.Logs folder BUILTIN\Administrators inheritance " executed="True" time="0.0181" asserts="0" success="True" result="Success" />
+          <test-case description="Logs folder BUILTIN\Users rights" name="Test-Folders.Logs folder BUILTIN\Users rights" executed="True" time="0.0133" asserts="0" success="True" result="Success" />
+          <test-case description="Logs folder BUILTIN\Users rights" name="Test-Folders.Logs folder BUILTIN\Users rights" executed="True" time="0.0132" asserts="0" success="True" result="Success" />
+          <test-case description="Logs folder BUILTIN\Users rights" name="Test-Folders.Logs folder BUILTIN\Users rights" executed="True" time="0.0132" asserts="0" success="True" result="Success" />
+          <test-case description="Logs SMB Share Exits" name="Test-Folders.Logs SMB Share Exits" executed="True" time="0.0716" asserts="0" success="True" result="Success" />
+          <test-case description="Logs SMB Share Path" name="Test-Folders.Logs SMB Share Path" executed="True" time="0.013" asserts="0" success="True" result="Success" />
+          <test-case description="Logs SMB Share test\GRA-SQLDBAAdmins Access" name="Test-Folders.Logs SMB Share test\GRA-SQLDBAAdmins Access" executed="True" time="0.0311" asserts="0" success="True" result="Success" />
+          <test-case description="Logs SMB Share test\GRA-SQLDBAAdmins Control" name="Test-Folders.Logs SMB Share test\GRA-SQLDBAAdmins Control" executed="True" time="0.0136" asserts="0" success="True" result="Success" />
+          <test-case description="Logs SMB Share  Rights" name="Test-Folders.Logs SMB Share  Rights" executed="True" time="0.0131" asserts="0" success="True" result="Success" />
+          <test-case description="Logs SMB Share test\sqltest_svc Access" name="Test-Folders.Logs SMB Share test\sqltest_svc Access" executed="True" time="0.0134" asserts="0" success="True" result="Success" />
+          <test-case description="Logs SMB Share test\sqltest_svc Control" name="Test-Folders.Logs SMB Share test\sqltest_svc Control" executed="True" time="0.0135" asserts="0" success="True" result="Success" />
+          <test-case description="Logs SMB Share  Rights" name="Test-Folders.Logs SMB Share  Rights" executed="True" time="0.0131" asserts="0" success="True" result="Success" />
+          <test-case description="Logs SMB Share test\apitest_svc Access" name="Test-Folders.Logs SMB Share test\apitest_svc Access" executed="True" time="0.0152" asserts="0" success="True" result="Success" />
+          <test-case description="Logs SMB Share test\apitest_svc Control" name="Test-Folders.Logs SMB Share test\apitest_svc Control" executed="True" time="0.0134" asserts="0" success="True" result="Success" />
+          <test-case description="Logs SMB Share  Rights" name="Test-Folders.Logs SMB Share  Rights" executed="True" time="0.0129" asserts="0" success="True" result="Success" />
+          <test-case description="Tempdb folder owner" name="Test-Folders.Tempdb folder owner" executed="True" time="0.0677" asserts="0" success="True" result="Success" />
+          <test-case description="Tempdb folder test\sqltest_svc access " name="Test-Folders.Tempdb folder test\sqltest_svc access " executed="True" time="0.0143" asserts="0" success="True" result="Success" />
+          <test-case description="Tempdb folder test\sqltest_svc rights " name="Test-Folders.Tempdb folder test\sqltest_svc rights " executed="True" time="0.0146" asserts="0" success="True" result="Success" />
+          <test-case description="Tempdb folder test\sqltest_svc inheritance " name="Test-Folders.Tempdb folder test\sqltest_svc inheritance " executed="True" time="0.0135" asserts="0" success="True" result="Success" />
+          <test-case description="Tempdb folder test\apitest_svc access " name="Test-Folders.Tempdb folder test\apitest_svc access " executed="True" time="0.0156" asserts="0" success="True" result="Success" />
+          <test-case description="Tempdb folder test\apitest_svc rights " name="Test-Folders.Tempdb folder test\apitest_svc rights " executed="True" time="0.0171" asserts="0" success="True" result="Success" />
+          <test-case description="Tempdb folder test\apitest_svc inheritance " name="Test-Folders.Tempdb folder test\apitest_svc inheritance " executed="True" time="0.0203" asserts="0" success="True" result="Success" />
+          <test-case description="Tempdb folder NT AUTHORITY\SYSTEM access " name="Test-Folders.Tempdb folder NT AUTHORITY\SYSTEM access " executed="True" time="0.0134" asserts="0" success="True" result="Success" />
+          <test-case description="Tempdb folder NT AUTHORITY\SYSTEM rights " name="Test-Folders.Tempdb folder NT AUTHORITY\SYSTEM rights " executed="True" time="0.0134" asserts="0" success="True" result="Success" />
+          <test-case description="Tempdb folder NT AUTHORITY\SYSTEM inheritance " name="Test-Folders.Tempdb folder NT AUTHORITY\SYSTEM inheritance " executed="True" time="0.0135" asserts="0" success="True" result="Success" />
+          <test-case description="Tempdb folder BUILTIN\Administrators access " name="Test-Folders.Tempdb folder BUILTIN\Administrators access " executed="True" time="0.0135" asserts="0" success="True" result="Success" />
+          <test-case description="Tempdb folder BUILTIN\Administrators rights " name="Test-Folders.Tempdb folder BUILTIN\Administrators rights " executed="True" time="0.0134" asserts="0" success="True" result="Success" />
+          <test-case description="Tempdb folder BUILTIN\Administrators inheritance " name="Test-Folders.Tempdb folder BUILTIN\Administrators inheritance " executed="True" time="0.0162" asserts="0" success="True" result="Success" />
+          <test-case description="Tempdb folder BUILTIN\Users rights" name="Test-Folders.Tempdb folder BUILTIN\Users rights" executed="True" time="0.0132" asserts="0" success="True" result="Success" />
+          <test-case description="Tempdb folder BUILTIN\Users rights" name="Test-Folders.Tempdb folder BUILTIN\Users rights" executed="True" time="0.0132" asserts="0" success="True" result="Success" />
+          <test-case description="Tempdb folder BUILTIN\Users rights" name="Test-Folders.Tempdb folder BUILTIN\Users rights" executed="True" time="0.0131" asserts="0" success="True" result="Success" />
+          <test-case description="Backup folder owner" name="Test-Folders.Backup folder owner" executed="True" time="0.0604" asserts="0" success="True" result="Success" />
+          <test-case description="Backup folder test\sqltest_svc access " name="Test-Folders.Backup folder test\sqltest_svc access " executed="True" time="0.0137" asserts="0" success="True" result="Success" />
+          <test-case description="Backup folder test\sqltest_svc rights " name="Test-Folders.Backup folder test\sqltest_svc rights " executed="True" time="0.0133" asserts="0" success="True" result="Success" />
+          <test-case description="Backup folder test\sqltest_svc inheritance " name="Test-Folders.Backup folder test\sqltest_svc inheritance " executed="True" time="0.0182" asserts="0" success="True" result="Success" />
+          <test-case description="Backup folder test\apitest_svc access " name="Test-Folders.Backup folder test\apitest_svc access " executed="True" time="0.0131" asserts="0" success="True" result="Success" />
+          <test-case description="Backup folder test\apitest_svc rights " name="Test-Folders.Backup folder test\apitest_svc rights " executed="True" time="0.0132" asserts="0" success="True" result="Success" />
+          <test-case description="Backup folder test\apitest_svc inheritance " name="Test-Folders.Backup folder test\apitest_svc inheritance " executed="True" time="0.0132" asserts="0" success="True" result="Success" />
+          <test-case description="Backup folder NT AUTHORITY\SYSTEM access " name="Test-Folders.Backup folder NT AUTHORITY\SYSTEM access " executed="True" time="0.0132" asserts="0" success="True" result="Success" />
+          <test-case description="Backup folder NT AUTHORITY\SYSTEM rights " name="Test-Folders.Backup folder NT AUTHORITY\SYSTEM rights " executed="True" time="0.0151" asserts="0" success="True" result="Success" />
+          <test-case description="Backup folder NT AUTHORITY\SYSTEM inheritance " name="Test-Folders.Backup folder NT AUTHORITY\SYSTEM inheritance " executed="True" time="0.0134" asserts="0" success="True" result="Success" />
+          <test-case description="Backup folder BUILTIN\Administrators access " name="Test-Folders.Backup folder BUILTIN\Administrators access " executed="True" time="0.0133" asserts="0" success="True" result="Success" />
+          <test-case description="Backup folder BUILTIN\Administrators rights " name="Test-Folders.Backup folder BUILTIN\Administrators rights " executed="True" time="0.0133" asserts="0" success="True" result="Success" />
+          <test-case description="Backup folder BUILTIN\Administrators inheritance " name="Test-Folders.Backup folder BUILTIN\Administrators inheritance " executed="True" time="0.0143" asserts="0" success="True" result="Success" />
+          <test-case description="Backup folder BUILTIN\Users rights" name="Test-Folders.Backup folder BUILTIN\Users rights" executed="True" time="0.0159" asserts="0" success="True" result="Success" />
+          <test-case description="Backup folder BUILTIN\Users rights" name="Test-Folders.Backup folder BUILTIN\Users rights" executed="True" time="0.0205" asserts="0" success="True" result="Success" />
+          <test-case description="Backup folder BUILTIN\Users rights" name="Test-Folders.Backup folder BUILTIN\Users rights" executed="True" time="0.0144" asserts="0" success="True" result="Success" />
+          <test-case description="Backup SMB Share Exits" name="Test-Folders.Backup SMB Share Exits" executed="True" time="0.067" asserts="0" success="True" result="Success" />
+          <test-case description="Backup SMB Share Path" name="Test-Folders.Backup SMB Share Path" executed="True" time="0.0132" asserts="0" success="True" result="Success" />
+          <test-case description="Backup SMB Share test\GRA-SQLDBAAdmins Access" name="Test-Folders.Backup SMB Share test\GRA-SQLDBAAdmins Access" executed="True" time="0.0292" asserts="0" success="True" result="Success" />
+          <test-case description="Backup SMB Share test\GRA-SQLDBAAdmins Control" name="Test-Folders.Backup SMB Share test\GRA-SQLDBAAdmins Control" executed="True" time="0.0137" asserts="0" success="True" result="Success" />
+          <test-case description="Backup SMB Share  Rights" name="Test-Folders.Backup SMB Share  Rights" executed="True" time="0.0131" asserts="0" success="True" result="Success" />
+          <test-case description="Backup SMB Share test\sqltest_svc Access" name="Test-Folders.Backup SMB Share test\sqltest_svc Access" executed="True" time="0.0135" asserts="0" success="True" result="Success" />
+          <test-case description="Backup SMB Share test\sqltest_svc Control" name="Test-Folders.Backup SMB Share test\sqltest_svc Control" executed="True" time="0.0138" asserts="0" success="True" result="Success" />
+          <test-case description="Backup SMB Share  Rights" name="Test-Folders.Backup SMB Share  Rights" executed="True" time="0.0151" asserts="0" success="True" result="Success" />
+          <test-case description="Backup SMB Share test\apitest_svc Access" name="Test-Folders.Backup SMB Share test\apitest_svc Access" executed="True" time="0.0135" asserts="0" success="True" result="Success" />
+          <test-case description="Backup SMB Share test\apitest_svc Control" name="Test-Folders.Backup SMB Share test\apitest_svc Control" executed="True" time="0.0134" asserts="0" success="True" result="Success" />
+          <test-case description="Backup SMB Share  Rights" name="Test-Folders.Backup SMB Share  Rights" executed="True" time="0.0136" asserts="0" success="True" result="Success" />
+          <test-case description="Jobs folder owner" name="Test-Folders.Jobs folder owner" executed="True" time="0.0626" asserts="0" success="True" result="Success" />
+          <test-case description="Jobs folder test\sqltest_svc access " name="Test-Folders.Jobs folder test\sqltest_svc access " executed="True" time="0.0137" asserts="0" success="True" result="Success" />
+          <test-case description="Jobs folder test\sqltest_svc rights " name="Test-Folders.Jobs folder test\sqltest_svc rights " executed="True" time="0.0157" asserts="0" success="True" result="Success" />
+          <test-case description="Jobs folder test\sqltest_svc inheritance " name="Test-Folders.Jobs folder test\sqltest_svc inheritance " executed="True" time="0.0135" asserts="0" success="True" result="Success" />
+          <test-case description="Jobs folder test\apitest_svc access " name="Test-Folders.Jobs folder test\apitest_svc access " executed="True" time="0.0133" asserts="0" success="True" result="Success" />
+          <test-case description="Jobs folder test\apitest_svc rights " name="Test-Folders.Jobs folder test\apitest_svc rights " executed="True" time="0.0133" asserts="0" success="True" result="Success" />
+          <test-case description="Jobs folder test\apitest_svc inheritance " name="Test-Folders.Jobs folder test\apitest_svc inheritance " executed="True" time="0.0133" asserts="0" success="True" result="Success" />
+          <test-case description="Jobs folder NT AUTHORITY\SYSTEM access " name="Test-Folders.Jobs folder NT AUTHORITY\SYSTEM access " executed="True" time="0.0133" asserts="0" success="True" result="Success" />
+          <test-case description="Jobs folder NT AUTHORITY\SYSTEM rights " name="Test-Folders.Jobs folder NT AUTHORITY\SYSTEM rights " executed="True" time="0.0152" asserts="0" success="True" result="Success" />
+          <test-case description="Jobs folder NT AUTHORITY\SYSTEM inheritance " name="Test-Folders.Jobs folder NT AUTHORITY\SYSTEM inheritance " executed="True" time="0.0135" asserts="0" success="True" result="Success" />
+          <test-case description="Jobs folder BUILTIN\Administrators access " name="Test-Folders.Jobs folder BUILTIN\Administrators access " executed="True" time="0.0133" asserts="0" success="True" result="Success" />
+          <test-case description="Jobs folder BUILTIN\Administrators rights " name="Test-Folders.Jobs folder BUILTIN\Administrators rights " executed="True" time="0.0133" asserts="0" success="True" result="Success" />
+          <test-case description="Jobs folder BUILTIN\Administrators inheritance " name="Test-Folders.Jobs folder BUILTIN\Administrators inheritance " executed="True" time="0.0135" asserts="0" success="True" result="Success" />
+          <test-case description="Jobs folder BUILTIN\Users rights" name="Test-Folders.Jobs folder BUILTIN\Users rights" executed="True" time="0.0131" asserts="0" success="True" result="Success" />
+          <test-case description="Jobs folder BUILTIN\Users rights" name="Test-Folders.Jobs folder BUILTIN\Users rights" executed="True" time="0.0162" asserts="0" success="True" result="Success" />
+          <test-case description="Jobs folder BUILTIN\Users rights" name="Test-Folders.Jobs folder BUILTIN\Users rights" executed="True" time="0.0132" asserts="0" success="True" result="Success" />
+          <test-case description="TempdbLogs folder owner" name="Test-Folders.TempdbLogs folder owner" executed="True" time="0.0613" asserts="0" success="True" result="Success" />
+          <test-case description="TempdbLogs folder test\sqltest_svc access " name="Test-Folders.TempdbLogs folder test\sqltest_svc access " executed="True" time="0.0138" asserts="0" success="True" result="Success" />
+          <test-case description="TempdbLogs folder test\sqltest_svc rights " name="Test-Folders.TempdbLogs folder test\sqltest_svc rights " executed="True" time="0.0135" asserts="0" success="True" result="Success" />
+          <test-case description="TempdbLogs folder test\sqltest_svc inheritance " name="Test-Folders.TempdbLogs folder test\sqltest_svc inheritance " executed="True" time="0.0134" asserts="0" success="True" result="Success" />
+          <test-case description="TempdbLogs folder test\apitest_svc access " name="Test-Folders.TempdbLogs folder test\apitest_svc access " executed="True" time="0.0134" asserts="0" success="True" result="Success" />
+          <test-case description="TempdbLogs folder test\apitest_svc rights " name="Test-Folders.TempdbLogs folder test\apitest_svc rights " executed="True" time="0.0134" asserts="0" success="True" result="Success" />
+          <test-case description="TempdbLogs folder test\apitest_svc inheritance " name="Test-Folders.TempdbLogs folder test\apitest_svc inheritance " executed="True" time="0.0135" asserts="0" success="True" result="Success" />
+          <test-case description="TempdbLogs folder NT AUTHORITY\SYSTEM access " name="Test-Folders.TempdbLogs folder NT AUTHORITY\SYSTEM access " executed="True" time="0.0155" asserts="0" success="True" result="Success" />
+          <test-case description="TempdbLogs folder NT AUTHORITY\SYSTEM rights " name="Test-Folders.TempdbLogs folder NT AUTHORITY\SYSTEM rights " executed="True" time="0.0135" asserts="0" success="True" result="Success" />
+          <test-case description="TempdbLogs folder NT AUTHORITY\SYSTEM inheritance " name="Test-Folders.TempdbLogs folder NT AUTHORITY\SYSTEM inheritance " executed="True" time="0.0136" asserts="0" success="True" result="Success" />
+          <test-case description="TempdbLogs folder BUILTIN\Administrators access " name="Test-Folders.TempdbLogs folder BUILTIN\Administrators access " executed="True" time="0.0145" asserts="0" success="True" result="Success" />
+          <test-case description="TempdbLogs folder BUILTIN\Administrators rights " name="Test-Folders.TempdbLogs folder BUILTIN\Administrators rights " executed="True" time="0.0134" asserts="0" success="True" result="Success" />
+          <test-case description="TempdbLogs folder BUILTIN\Administrators inheritance " name="Test-Folders.TempdbLogs folder BUILTIN\Administrators inheritance " executed="True" time="0.0136" asserts="0" success="True" result="Success" />
+          <test-case description="TempdbLogs folder BUILTIN\Users rights" name="Test-Folders.TempdbLogs folder BUILTIN\Users rights" executed="True" time="0.0164" asserts="0" success="True" result="Success" />
+          <test-case description="TempdbLogs folder BUILTIN\Users rights" name="Test-Folders.TempdbLogs folder BUILTIN\Users rights" executed="True" time="0.0135" asserts="0" success="True" result="Success" />
+          <test-case description="TempdbLogs folder BUILTIN\Users rights" name="Test-Folders.TempdbLogs folder BUILTIN\Users rights" executed="True" time="0.0133" asserts="0" success="True" result="Success" />
+          <test-case description="SystemData folder owner" name="Test-Folders.SystemData folder owner" executed="True" time="0.0636" asserts="0" success="True" result="Success" />
+          <test-case description="SystemData folder test\sqltest_svc access " name="Test-Folders.SystemData folder test\sqltest_svc access " executed="True" time="0.0137" asserts="0" success="True" result="Success" />
+          <test-case description="SystemData folder test\sqltest_svc rights " name="Test-Folders.SystemData folder test\sqltest_svc rights " executed="True" time="0.0133" asserts="0" success="True" result="Success" />
+          <test-case description="SystemData folder test\sqltest_svc inheritance " name="Test-Folders.SystemData folder test\sqltest_svc inheritance " executed="True" time="0.0138" asserts="0" success="True" result="Success" />
+          <test-case description="SystemData folder test\apitest_svc access " name="Test-Folders.SystemData folder test\apitest_svc access " executed="True" time="0.0133" asserts="0" success="True" result="Success" />
+          <test-case description="SystemData folder test\apitest_svc rights " name="Test-Folders.SystemData folder test\apitest_svc rights " executed="True" time="0.0134" asserts="0" success="True" result="Success" />
+          <test-case description="SystemData folder test\apitest_svc inheritance " name="Test-Folders.SystemData folder test\apitest_svc inheritance " executed="True" time="0.0135" asserts="0" success="True" result="Success" />
+          <test-case description="SystemData folder NT AUTHORITY\SYSTEM access " name="Test-Folders.SystemData folder NT AUTHORITY\SYSTEM access " executed="True" time="0.0156" asserts="0" success="True" result="Success" />
+          <test-case description="SystemData folder NT AUTHORITY\SYSTEM rights " name="Test-Folders.SystemData folder NT AUTHORITY\SYSTEM rights " executed="True" time="0.0135" asserts="0" success="True" result="Success" />
+          <test-case description="SystemData folder NT AUTHORITY\SYSTEM inheritance " name="Test-Folders.SystemData folder NT AUTHORITY\SYSTEM inheritance " executed="True" time="0.0135" asserts="0" success="True" result="Success" />
+          <test-case description="SystemData folder BUILTIN\Administrators access " name="Test-Folders.SystemData folder BUILTIN\Administrators access " executed="True" time="0.0135" asserts="0" success="True" result="Success" />
+          <test-case description="SystemData folder BUILTIN\Administrators rights " name="Test-Folders.SystemData folder BUILTIN\Administrators rights " executed="True" time="0.0136" asserts="0" success="True" result="Success" />
+          <test-case description="SystemData folder BUILTIN\Administrators inheritance " name="Test-Folders.SystemData folder BUILTIN\Administrators inheritance " executed="True" time="0.0138" asserts="0" success="True" result="Success" />
+          <test-case description="SystemData folder BUILTIN\Users rights" name="Test-Folders.SystemData folder BUILTIN\Users rights" executed="True" time="0.0168" asserts="0" success="True" result="Success" />
+          <test-case description="SystemData folder BUILTIN\Users rights" name="Test-Folders.SystemData folder BUILTIN\Users rights" executed="True" time="0.0148" asserts="0" success="True" result="Success" />
+          <test-case description="SystemData folder BUILTIN\Users rights" name="Test-Folders.SystemData folder BUILTIN\Users rights" executed="True" time="0.0148" asserts="0" success="True" result="Success" />
+          <test-case description="ScriptRunner folder owner" name="Test-Folders.ScriptRunner folder owner" executed="True" time="0.0637" asserts="0" success="True" result="Success" />
+          <test-case description="ScriptRunner folder test\sqltest_svc access " name="Test-Folders.ScriptRunner folder test\sqltest_svc access " executed="True" time="0.0164" asserts="0" success="True" result="Success" />
+          <test-case description="ScriptRunner folder test\sqltest_svc rights " name="Test-Folders.ScriptRunner folder test\sqltest_svc rights " executed="True" time="0.0183" asserts="0" success="True" result="Success" />
+          <test-case description="ScriptRunner folder test\sqltest_svc inheritance " name="Test-Folders.ScriptRunner folder test\sqltest_svc inheritance " executed="True" time="0.0205" asserts="0" success="True" result="Success" />
+          <test-case description="ScriptRunner folder test\apitest_svc access " name="Test-Folders.ScriptRunner folder test\apitest_svc access " executed="True" time="0.0155" asserts="0" success="True" result="Success" />
+          <test-case description="ScriptRunner folder test\apitest_svc rights " name="Test-Folders.ScriptRunner folder test\apitest_svc rights " executed="True" time="0.0134" asserts="0" success="True" result="Success" />
+          <test-case description="ScriptRunner folder test\apitest_svc inheritance " name="Test-Folders.ScriptRunner folder test\apitest_svc inheritance " executed="True" time="0.0134" asserts="0" success="True" result="Success" />
+          <test-case description="ScriptRunner folder NT AUTHORITY\SYSTEM access " name="Test-Folders.ScriptRunner folder NT AUTHORITY\SYSTEM access " executed="True" time="0.0134" asserts="0" success="True" result="Success" />
+          <test-case description="ScriptRunner folder NT AUTHORITY\SYSTEM rights " name="Test-Folders.ScriptRunner folder NT AUTHORITY\SYSTEM rights " executed="True" time="0.0134" asserts="0" success="True" result="Success" />
+          <test-case description="ScriptRunner folder NT AUTHORITY\SYSTEM inheritance " name="Test-Folders.ScriptRunner folder NT AUTHORITY\SYSTEM inheritance " executed="True" time="0.2073" asserts="0" success="True" result="Success" />
+          <test-case description="ScriptRunner folder BUILTIN\Administrators access " name="Test-Folders.ScriptRunner folder BUILTIN\Administrators access " executed="True" time="0.0139" asserts="0" success="True" result="Success" />
+          <test-case description="ScriptRunner folder BUILTIN\Administrators rights " name="Test-Folders.ScriptRunner folder BUILTIN\Administrators rights " executed="True" time="0.0136" asserts="0" success="True" result="Success" />
+          <test-case description="ScriptRunner folder BUILTIN\Administrators inheritance " name="Test-Folders.ScriptRunner folder BUILTIN\Administrators inheritance " executed="True" time="0.0137" asserts="0" success="True" result="Success" />
+          <test-case description="ScriptRunner folder BUILTIN\Users rights" name="Test-Folders.ScriptRunner folder BUILTIN\Users rights" executed="True" time="0.0134" asserts="0" success="True" result="Success" />
+          <test-case description="ScriptRunner folder BUILTIN\Users rights" name="Test-Folders.ScriptRunner folder BUILTIN\Users rights" executed="True" time="0.0134" asserts="0" success="True" result="Success" />
+          <test-case description="ScriptRunner folder BUILTIN\Users rights" name="Test-Folders.ScriptRunner folder BUILTIN\Users rights" executed="True" time="0.0148" asserts="0" success="True" result="Success" />
+          <test-case description="Restore folder owner" name="Test-Folders.Restore folder owner" executed="True" time="0.0618" asserts="0" success="True" result="Success" />
+          <test-case description="Restore folder test\sqltest_svc access " name="Test-Folders.Restore folder test\sqltest_svc access " executed="True" time="0.0141" asserts="0" success="True" result="Success" />
+          <test-case description="Restore folder test\sqltest_svc rights " name="Test-Folders.Restore folder test\sqltest_svc rights " executed="True" time="0.0135" asserts="0" success="True" result="Success" />
+          <test-case description="Restore folder test\sqltest_svc inheritance " name="Test-Folders.Restore folder test\sqltest_svc inheritance " executed="True" time="0.0135" asserts="0" success="True" result="Success" />
+          <test-case description="Restore folder test\apitest_svc access " name="Test-Folders.Restore folder test\apitest_svc access " executed="True" time="0.0132" asserts="0" success="True" result="Success" />
+          <test-case description="Restore folder test\apitest_svc rights " name="Test-Folders.Restore folder test\apitest_svc rights " executed="True" time="0.0133" asserts="0" success="True" result="Success" />
+          <test-case description="Restore folder test\apitest_svc inheritance " name="Test-Folders.Restore folder test\apitest_svc inheritance " executed="True" time="0.0134" asserts="0" success="True" result="Success" />
+          <test-case description="Restore folder NT AUTHORITY\SYSTEM access " name="Test-Folders.Restore folder NT AUTHORITY\SYSTEM access " executed="True" time="0.0135" asserts="0" success="True" result="Success" />
+          <test-case description="Restore folder NT AUTHORITY\SYSTEM rights " name="Test-Folders.Restore folder NT AUTHORITY\SYSTEM rights " executed="True" time="0.0155" asserts="0" success="True" result="Success" />
+          <test-case description="Restore folder NT AUTHORITY\SYSTEM inheritance " name="Test-Folders.Restore folder NT AUTHORITY\SYSTEM inheritance " executed="True" time="0.0136" asserts="0" success="True" result="Success" />
+          <test-case description="Restore folder BUILTIN\Administrators access " name="Test-Folders.Restore folder BUILTIN\Administrators access " executed="True" time="0.0134" asserts="0" success="True" result="Success" />
+          <test-case description="Restore folder BUILTIN\Administrators rights " name="Test-Folders.Restore folder BUILTIN\Administrators rights " executed="True" time="0.0135" asserts="0" success="True" result="Success" />
+          <test-case description="Restore folder BUILTIN\Administrators inheritance " name="Test-Folders.Restore folder BUILTIN\Administrators inheritance " executed="True" time="0.0136" asserts="0" success="True" result="Success" />
+          <test-case description="Restore folder BUILTIN\Users rights" name="Test-Folders.Restore folder BUILTIN\Users rights" executed="True" time="0.013" asserts="0" success="True" result="Success" />
+          <test-case description="Restore folder BUILTIN\Users rights" name="Test-Folders.Restore folder BUILTIN\Users rights" executed="True" time="0.0162" asserts="0" success="True" result="Success" />
+          <test-case description="Restore folder BUILTIN\Users rights" name="Test-Folders.Restore folder BUILTIN\Users rights" executed="True" time="0.0132" asserts="0" success="True" result="Success" />
+          <test-case description="Restore SMB Share Exits" name="Test-Folders.Restore SMB Share Exits" executed="True" time="0.0666" asserts="0" success="True" result="Success" />
+          <test-case description="Restore SMB Share Path" name="Test-Folders.Restore SMB Share Path" executed="True" time="0.0131" asserts="0" success="True" result="Success" />
+          <test-case description="Restore SMB Share test\GRA-SQLDBAAdmins Access" name="Test-Folders.Restore SMB Share test\GRA-SQLDBAAdmins Access" executed="True" time="0.0285" asserts="0" success="True" result="Success" />
+          <test-case description="Restore SMB Share test\GRA-SQLDBAAdmins Control" name="Test-Folders.Restore SMB Share test\GRA-SQLDBAAdmins Control" executed="True" time="0.0136" asserts="0" success="True" result="Success" />
+          <test-case description="Restore SMB Share  Rights" name="Test-Folders.Restore SMB Share  Rights" executed="True" time="0.0132" asserts="0" success="True" result="Success" />
+          <test-case description="Restore SMB Share test\sqltest_svc Access" name="Test-Folders.Restore SMB Share test\sqltest_svc Access" executed="True" time="0.0136" asserts="0" success="True" result="Success" />
+          <test-case description="Restore SMB Share test\sqltest_svc Control" name="Test-Folders.Restore SMB Share test\sqltest_svc Control" executed="True" time="0.0136" asserts="0" success="True" result="Success" />
+          <test-case description="Restore SMB Share  Rights" name="Test-Folders.Restore SMB Share  Rights" executed="True" time="0.0155" asserts="0" success="True" result="Success" />
+          <test-case description="Restore SMB Share test\apitest_svc Access" name="Test-Folders.Restore SMB Share test\apitest_svc Access" executed="True" time="0.0137" asserts="0" success="True" result="Success" />
+          <test-case description="Restore SMB Share test\apitest_svc Control" name="Test-Folders.Restore SMB Share test\apitest_svc Control" executed="True" time="0.0136" asserts="0" success="True" result="Success" />
+          <test-case description="Restore SMB Share  Rights" name="Test-Folders.Restore SMB Share  Rights" executed="True" time="0.013" asserts="0" success="True" result="Success" />
+          <test-case description="Scripts folder owner" name="Test-Folders.Scripts folder owner" executed="True" time="0.0704" asserts="0" success="True" result="Success" />
+          <test-case description="Scripts folder test\sqltest_svc access " name="Test-Folders.Scripts folder test\sqltest_svc access " executed="True" time="0.0137" asserts="0" success="True" result="Success" />
+          <test-case description="Scripts folder test\sqltest_svc rights " name="Test-Folders.Scripts folder test\sqltest_svc rights " executed="True" time="0.0159" asserts="0" success="True" result="Success" />
+          <test-case description="Scripts folder test\sqltest_svc inheritance " name="Test-Folders.Scripts folder test\sqltest_svc inheritance " executed="True" time="0.0134" asserts="0" success="True" result="Success" />
+          <test-case description="Scripts folder test\apitest_svc access " name="Test-Folders.Scripts folder test\apitest_svc access " executed="True" time="0.0134" asserts="0" success="True" result="Success" />
+          <test-case description="Scripts folder test\apitest_svc rights " name="Test-Folders.Scripts folder test\apitest_svc rights " executed="True" time="0.0134" asserts="0" success="True" result="Success" />
+          <test-case description="Scripts folder test\apitest_svc inheritance " name="Test-Folders.Scripts folder test\apitest_svc inheritance " executed="True" time="0.0134" asserts="0" success="True" result="Success" />
+          <test-case description="Scripts folder NT AUTHORITY\SYSTEM access " name="Test-Folders.Scripts folder NT AUTHORITY\SYSTEM access " executed="True" time="0.0133" asserts="0" success="True" result="Success" />
+          <test-case description="Scripts folder NT AUTHORITY\SYSTEM rights " name="Test-Folders.Scripts folder NT AUTHORITY\SYSTEM rights " executed="True" time="0.0151" asserts="0" success="True" result="Success" />
+          <test-case description="Scripts folder NT AUTHORITY\SYSTEM inheritance " name="Test-Folders.Scripts folder NT AUTHORITY\SYSTEM inheritance " executed="True" time="0.0135" asserts="0" success="True" result="Success" />
+          <test-case description="Scripts folder BUILTIN\Administrators access " name="Test-Folders.Scripts folder BUILTIN\Administrators access " executed="True" time="0.0134" asserts="0" success="True" result="Success" />
+          <test-case description="Scripts folder BUILTIN\Administrators rights " name="Test-Folders.Scripts folder BUILTIN\Administrators rights " executed="True" time="0.0137" asserts="0" success="True" result="Success" />
+          <test-case description="Scripts folder BUILTIN\Administrators inheritance " name="Test-Folders.Scripts folder BUILTIN\Administrators inheritance " executed="True" time="0.0135" asserts="0" success="True" result="Success" />
+          <test-case description="Scripts folder BUILTIN\Users rights" name="Test-Folders.Scripts folder BUILTIN\Users rights" executed="True" time="0.0131" asserts="0" success="True" result="Success" />
+          <test-case description="Scripts folder BUILTIN\Users rights" name="Test-Folders.Scripts folder BUILTIN\Users rights" executed="True" time="0.0164" asserts="0" success="True" result="Success" />
+          <test-case description="Scripts folder BUILTIN\Users rights" name="Test-Folders.Scripts folder BUILTIN\Users rights" executed="True" time="0.0159" asserts="0" success="True" result="Success" />
+          <test-case description="ImportExport folder owner" name="Test-Folders.ImportExport folder owner" executed="True" time="0.0653" asserts="0" success="True" result="Success" />
+          <test-case description="ImportExport folder test\sqltest_svc access " name="Test-Folders.ImportExport folder test\sqltest_svc access " executed="True" time="0.0138" asserts="0" success="True" result="Success" />
+          <test-case description="ImportExport folder test\sqltest_svc rights " name="Test-Folders.ImportExport folder test\sqltest_svc rights " executed="True" time="0.0134" asserts="0" success="True" result="Success" />
+          <test-case description="ImportExport folder test\sqltest_svc inheritance " name="Test-Folders.ImportExport folder test\sqltest_svc inheritance " executed="True" time="0.0135" asserts="0" success="True" result="Success" />
+          <test-case description="ImportExport folder test\apitest_svc access " name="Test-Folders.ImportExport folder test\apitest_svc access " executed="True" time="0.0136" asserts="0" success="True" result="Success" />
+          <test-case description="ImportExport folder test\apitest_svc rights " name="Test-Folders.ImportExport folder test\apitest_svc rights " executed="True" time="0.0138" asserts="0" success="True" result="Success" />
+          <test-case description="ImportExport folder test\apitest_svc inheritance " name="Test-Folders.ImportExport folder test\apitest_svc inheritance " executed="True" time="0.0138" asserts="0" success="True" result="Success" />
+          <test-case description="ImportExport folder NT AUTHORITY\SYSTEM access " name="Test-Folders.ImportExport folder NT AUTHORITY\SYSTEM access " executed="True" time="0.0156" asserts="0" success="True" result="Success" />
+          <test-case description="ImportExport folder NT AUTHORITY\SYSTEM rights " name="Test-Folders.ImportExport folder NT AUTHORITY\SYSTEM rights " executed="True" time="0.0135" asserts="0" success="True" result="Success" />
+          <test-case description="ImportExport folder NT AUTHORITY\SYSTEM inheritance " name="Test-Folders.ImportExport folder NT AUTHORITY\SYSTEM inheritance " executed="True" time="0.0136" asserts="0" success="True" result="Success" />
+          <test-case description="ImportExport folder BUILTIN\Administrators access " name="Test-Folders.ImportExport folder BUILTIN\Administrators access " executed="True" time="0.0135" asserts="0" success="True" result="Success" />
+          <test-case description="ImportExport folder BUILTIN\Administrators rights " name="Test-Folders.ImportExport folder BUILTIN\Administrators rights " executed="True" time="0.0135" asserts="0" success="True" result="Success" />
+          <test-case description="ImportExport folder BUILTIN\Administrators inheritance " name="Test-Folders.ImportExport folder BUILTIN\Administrators inheritance " executed="True" time="0.0137" asserts="0" success="True" result="Success" />
+          <test-case description="ImportExport folder BUILTIN\Users rights" name="Test-Folders.ImportExport folder BUILTIN\Users rights" executed="True" time="0.0164" asserts="0" success="True" result="Success" />
+          <test-case description="ImportExport folder BUILTIN\Users rights" name="Test-Folders.ImportExport folder BUILTIN\Users rights" executed="True" time="0.0145" asserts="0" success="True" result="Success" />
+          <test-case description="ImportExport folder BUILTIN\Users rights" name="Test-Folders.ImportExport folder BUILTIN\Users rights" executed="True" time="0.0133" asserts="0" success="True" result="Success" />
+          <test-case description="ImportExport SMB Share Exits" name="Test-Folders.ImportExport SMB Share Exits" executed="True" time="0.1199" asserts="0" success="True" result="Success" />
+          <test-case description="ImportExport SMB Share Path" name="Test-Folders.ImportExport SMB Share Path" executed="True" time="0.0162" asserts="0" success="True" result="Success" />
+          <test-case description="ImportExport SMB Share test\GRA-SQLDBAAdmins Access" name="Test-Folders.ImportExport SMB Share test\GRA-SQLDBAAdmins Access" executed="True" time="0.0357" asserts="0" success="True" result="Success" />
+          <test-case description="ImportExport SMB Share test\GRA-SQLDBAAdmins Control" name="Test-Folders.ImportExport SMB Share test\GRA-SQLDBAAdmins Control" executed="True" time="0.0173" asserts="0" success="True" result="Success" />
+          <test-case description="ImportExport SMB Share  Rights" name="Test-Folders.ImportExport SMB Share  Rights" executed="True" time="0.016" asserts="0" success="True" result="Success" />
+          <test-case description="ImportExport SMB Share test\sqltest_svc Access" name="Test-Folders.ImportExport SMB Share test\sqltest_svc Access" executed="True" time="0.0137" asserts="0" success="True" result="Success" />
+          <test-case description="ImportExport SMB Share test\sqltest_svc Control" name="Test-Folders.ImportExport SMB Share test\sqltest_svc Control" executed="True" time="0.017" asserts="0" success="True" result="Success" />
+          <test-case description="ImportExport SMB Share  Rights" name="Test-Folders.ImportExport SMB Share  Rights" executed="True" time="0.0132" asserts="0" success="True" result="Success" />
+          <test-case description="ImportExport SMB Share test\apitest_svc Access" name="Test-Folders.ImportExport SMB Share test\apitest_svc Access" executed="True" time="0.0136" asserts="0" success="True" result="Success" />
+          <test-case description="ImportExport SMB Share test\apitest_svc Control" name="Test-Folders.ImportExport SMB Share test\apitest_svc Control" executed="True" time="0.0137" asserts="0" success="True" result="Success" />
+          <test-case description="ImportExport SMB Share  Rights" name="Test-Folders.ImportExport SMB Share  Rights" executed="True" time="0.0133" asserts="0" success="True" result="Success" />
+          <test-case description="SystemLog folder owner" name="Test-Folders.SystemLog folder owner" executed="True" time="0.0639" asserts="0" success="True" result="Success" />
+          <test-case description="SystemLog folder test\sqltest_svc access " name="Test-Folders.SystemLog folder test\sqltest_svc access " executed="True" time="0.0138" asserts="0" success="True" result="Success" />
+          <test-case description="SystemLog folder test\sqltest_svc rights " name="Test-Folders.SystemLog folder test\sqltest_svc rights " executed="True" time="0.016" asserts="0" success="True" result="Success" />
+          <test-case description="SystemLog folder test\sqltest_svc inheritance " name="Test-Folders.SystemLog folder test\sqltest_svc inheritance " executed="True" time="0.0136" asserts="0" success="True" result="Success" />
+          <test-case description="SystemLog folder test\apitest_svc access " name="Test-Folders.SystemLog folder test\apitest_svc access " executed="True" time="0.0135" asserts="0" success="True" result="Success" />
+          <test-case description="SystemLog folder test\apitest_svc rights " name="Test-Folders.SystemLog folder test\apitest_svc rights " executed="True" time="0.0135" asserts="0" success="True" result="Success" />
+          <test-case description="SystemLog folder test\apitest_svc inheritance " name="Test-Folders.SystemLog folder test\apitest_svc inheritance " executed="True" time="0.014" asserts="0" success="True" result="Success" />
+          <test-case description="SystemLog folder NT AUTHORITY\SYSTEM access " name="Test-Folders.SystemLog folder NT AUTHORITY\SYSTEM access " executed="True" time="0.0137" asserts="0" success="True" result="Success" />
+          <test-case description="SystemLog folder NT AUTHORITY\SYSTEM rights " name="Test-Folders.SystemLog folder NT AUTHORITY\SYSTEM rights " executed="True" time="0.0164" asserts="0" success="True" result="Success" />
+          <test-case description="SystemLog folder NT AUTHORITY\SYSTEM inheritance " name="Test-Folders.SystemLog folder NT AUTHORITY\SYSTEM inheritance " executed="True" time="0.0146" asserts="0" success="True" result="Success" />
+          <test-case description="SystemLog folder BUILTIN\Administrators access " name="Test-Folders.SystemLog folder BUILTIN\Administrators access " executed="True" time="0.0136" asserts="0" success="True" result="Success" />
+          <test-case description="SystemLog folder BUILTIN\Administrators rights " name="Test-Folders.SystemLog folder BUILTIN\Administrators rights " executed="True" time="0.0141" asserts="0" success="True" result="Success" />
+          <test-case description="SystemLog folder BUILTIN\Administrators inheritance " name="Test-Folders.SystemLog folder BUILTIN\Administrators inheritance " executed="True" time="0.0146" asserts="0" success="True" result="Success" />
+          <test-case description="SystemLog folder BUILTIN\Users rights" name="Test-Folders.SystemLog folder BUILTIN\Users rights" executed="True" time="0.0135" asserts="0" success="True" result="Success" />
+          <test-case description="SystemLog folder BUILTIN\Users rights" name="Test-Folders.SystemLog folder BUILTIN\Users rights" executed="True" time="0.0157" asserts="0" success="True" result="Success" />
+          <test-case description="SystemLog folder BUILTIN\Users rights" name="Test-Folders.SystemLog folder BUILTIN\Users rights" executed="True" time="0.0134" asserts="0" success="True" result="Success" />
+          <test-case description="RestoreProcess folder owner" name="Test-Folders.RestoreProcess folder owner" executed="True" time="0.1007" asserts="0" success="True" result="Success" />
+          <test-case description="RestoreProcess folder APIAcctName2 access " name="Test-Folders.RestoreProcess folder APIAcctName2 access " executed="True" time="0.0341" asserts="0" success="True" result="Success" />
+          <test-case description="RestoreProcess folder APIAcctName2 rights " name="Test-Folders.RestoreProcess folder APIAcctName2 rights " executed="True" time="0.0135" asserts="0" success="True" result="Success" />
+          <test-case description="RestoreProcess folder APIAcctName2 inheritance " name="Test-Folders.RestoreProcess folder APIAcctName2 inheritance " executed="True" time="0.0135" asserts="0" success="True" result="Success" />
+          <test-case description="RestoreProcess folder SQLAcctName1 access " name="Test-Folders.RestoreProcess folder SQLAcctName1 access " executed="True" time="0.0134" asserts="0" success="True" result="Success" />
+          <test-case description="RestoreProcess folder SQLAcctName1 rights " name="Test-Folders.RestoreProcess folder SQLAcctName1 rights " executed="True" time="0.0134" asserts="0" success="True" result="Success" />
+          <test-case description="RestoreProcess folder SQLAcctName1 inheritance " name="Test-Folders.RestoreProcess folder SQLAcctName1 inheritance " executed="True" time="0.0135" asserts="0" success="True" result="Success" />
+          <test-case description="RestoreProcess folder test\sqltest_svc access " name="Test-Folders.RestoreProcess folder test\sqltest_svc access " executed="True" time="0.0134" asserts="0" success="True" result="Success" />
+          <test-case description="RestoreProcess folder test\sqltest_svc rights " name="Test-Folders.RestoreProcess folder test\sqltest_svc rights " executed="True" time="0.0135" asserts="0" success="True" result="Success" />
+          <test-case description="RestoreProcess folder test\sqltest_svc inheritance " name="Test-Folders.RestoreProcess folder test\sqltest_svc inheritance " executed="True" time="0.0173" asserts="0" success="True" result="Success" />
+          <test-case description="RestoreProcess folder BUILTIN\Administrators access " name="Test-Folders.RestoreProcess folder BUILTIN\Administrators access " executed="True" time="0.0136" asserts="0" success="True" result="Success" />
+          <test-case description="RestoreProcess folder BUILTIN\Administrators rights " name="Test-Folders.RestoreProcess folder BUILTIN\Administrators rights " executed="True" time="0.0136" asserts="0" success="True" result="Success" />
+          <test-case description="RestoreProcess folder BUILTIN\Administrators inheritance " name="Test-Folders.RestoreProcess folder BUILTIN\Administrators inheritance " executed="True" time="0.0137" asserts="0" success="True" result="Success" />
+          <test-case description="RestoreProcess folder test\apitest_svc access " name="Test-Folders.RestoreProcess folder test\apitest_svc access " executed="True" time="0.0135" asserts="0" success="True" result="Success" />
+          <test-case description="RestoreProcess folder test\apitest_svc rights " name="Test-Folders.RestoreProcess folder test\apitest_svc rights " executed="True" time="0.0136" asserts="0" success="True" result="Success" />
+          <test-case description="RestoreProcess folder test\apitest_svc inheritance " name="Test-Folders.RestoreProcess folder test\apitest_svc inheritance " executed="True" time="0.0194" asserts="0" success="True" result="Success" />
+          <test-case description="RestoreProcess folder NT AUTHORITY\SYSTEM access " name="Test-Folders.RestoreProcess folder NT AUTHORITY\SYSTEM access " executed="True" time="0.0136" asserts="0" success="True" result="Success" />
+          <test-case description="RestoreProcess folder NT AUTHORITY\SYSTEM rights " name="Test-Folders.RestoreProcess folder NT AUTHORITY\SYSTEM rights " executed="True" time="0.0137" asserts="0" success="True" result="Success" />
+          <test-case description="RestoreProcess folder NT AUTHORITY\SYSTEM inheritance " name="Test-Folders.RestoreProcess folder NT AUTHORITY\SYSTEM inheritance " executed="True" time="0.0139" asserts="0" success="True" result="Success" />
+          <test-case description="RestoreProcess folder BUILTIN\Users rights" name="Test-Folders.RestoreProcess folder BUILTIN\Users rights" executed="True" time="0.0137" asserts="0" success="True" result="Success" />
+          <test-case description="RestoreProcess folder BUILTIN\Users rights" name="Test-Folders.RestoreProcess folder BUILTIN\Users rights" executed="True" time="0.0136" asserts="0" success="True" result="Success" />
+          <test-case description="RestoreProcess folder BUILTIN\Users rights" name="Test-Folders.RestoreProcess folder BUILTIN\Users rights" executed="True" time="0.0155" asserts="0" success="True" result="Success" />
+        </results>
+      </test-suite>
+      <test-suite type="TestFixture" name="Test-DBEncryption" executed="True" result="Success" success="True" time="2.2947" asserts="0" description="Test-DBEncryption">
+        <results>
+          <test-case description="DBA database" name="Test-DBEncryption.DBA database" executed="True" time="2.092" asserts="0" success="True" result="Success" />
+          <test-case description="UTIL database" name="Test-DBEncryption.UTIL database" executed="True" time="0.2027" asserts="0" success="True" result="Success" />
+        </results>
+      </test-suite>
+      <test-suite type="TestFixture" name="Test-SQLAlerts" executed="True" result="Success" success="True" time="1.0031" asserts="0" description="Test-SQLAlerts">
+        <results>
+          <test-case description="Alert Operator" name="Test-SQLAlerts.Alert Operator" executed="True" time="1.0031" asserts="0" success="True" result="Success" />
+        </results>
+      </test-suite>
+      <test-suite type="TestFixture" name="Test-Certificates" executed="True" result="Success" success="True" time="1.0888" asserts="0" description="Test-Certificates">
+        <results>
+          <test-case description="TDE Cert" name="Test-Certificates.TDE Cert" executed="True" time="0.1248" asserts="0" success="True" result="Success" />
+          <test-case description="SMK Cert" name="Test-Certificates.SMK Cert" executed="True" time="0.964" asserts="0" success="True" result="Success" />
+        </results>
+      </test-suite>
+      <test-suite type="TestFixture" name="Test-SQLServerConfigs" executed="True" result="Success" success="True" time="4.0431" asserts="0" description="Test-SQLServerConfigs">
+        <results>
+          <test-case description="TCP Port" name="Test-SQLServerConfigs.TCP Port" executed="True" time="3.0605" asserts="0" success="True" result="Success" />
+          <test-case description="SQLPS Execution Policy" name="Test-SQLServerConfigs.SQLPS Execution Policy" executed="True" time="0.0261" asserts="0" success="True" result="Success" />
+          <test-case description="Local Server Name" name="Test-SQLServerConfigs.Local Server Name" executed="True" time="0.0606" asserts="0" success="True" result="Success" />
+          <test-case description="Setting for Optimize AD HOC Workloads" name="Test-SQLServerConfigs.Setting for Optimize AD HOC Workloads" executed="True" time="0.1069" asserts="0" success="True" result="Success" />
+          <test-case description="Setting for Backup Compression" name="Test-SQLServerConfigs.Setting for Backup Compression" executed="True" time="0.0227" asserts="0" success="True" result="Success" />
+          <test-case description="Server Memory Setting" name="Test-SQLServerConfigs.Server Memory Setting" executed="True" time="0.0868" asserts="0" success="True" result="Success" />
+          <test-case description="Database Mail XPs Setting" name="Test-SQLServerConfigs.Database Mail XPs Setting" executed="True" time="0.0198" asserts="0" success="True" result="Success" />
+          <test-case description="Remote Access Setting" name="Test-SQLServerConfigs.Remote Access Setting" executed="True" time="0.0197" asserts="0" success="True" result="Success" />
+          <test-case description="Remote Admin Connections Setting" name="Test-SQLServerConfigs.Remote Admin Connections Setting" executed="True" time="0.0199" asserts="0" success="True" result="Success" />
+          <test-case description="Cost Threshold for Parallelism" name="Test-SQLServerConfigs.Cost Threshold for Parallelism" executed="True" time="0.0201" asserts="0" success="True" result="Success" />
+          <test-case description="Max Degree of Parallelism" name="Test-SQLServerConfigs.Max Degree of Parallelism" executed="True" time="0.0203" asserts="0" success="True" result="Success" />
+          <test-case description="Trace Flag 1118" name="Test-SQLServerConfigs.Trace Flag 1118" executed="True" time="0.0381" asserts="0" success="True" result="Success" />
+          <test-case description="Default Data Backup Location" name="Test-SQLServerConfigs.Default Data Backup Location" executed="True" time="0.1311" asserts="0" success="True" result="Success" />
+          <test-case description="Default Log Backup Location" name="Test-SQLServerConfigs.Default Log Backup Location" executed="True" time="0.0297" asserts="0" success="True" result="Success" />
+          <test-case description="Default Backup Location" name="Test-SQLServerConfigs.Default Backup Location" executed="True" time="0.021" asserts="0" success="True" result="Success" />
+          <test-case description="Default Error Log Path" name="Test-SQLServerConfigs.Default Error Log Path" executed="True" time="0.0206" asserts="0" success="True" result="Success" />
+          <test-case description="Param 0 - Master Data File" name="Test-SQLServerConfigs.Param 0 - Master Data File" executed="True" time="0.2383" asserts="0" success="True" result="Success" />
+          <test-case description="Param 1 - Error Log" name="Test-SQLServerConfigs.Param 1 - Error Log" executed="True" time="0.0279" asserts="0" success="True" result="Success" />
+          <test-case description="Param 2 - Master Log File" name="Test-SQLServerConfigs.Param 2 - Master Log File" executed="True" time="0.0516" asserts="0" success="True" result="Success" />
+          <test-case description="Param 3 - Timeout Threshold" name="Test-SQLServerConfigs.Param 3 - Timeout Threshold" executed="True" time="0.0214" asserts="0" success="True" result="Success" />
+        </results>
+      </test-suite>
+      <test-suite type="TestFixture" name="Test-SQLFile" executed="True" result="Success" success="True" time="1.8566" asserts="0" description="Test-SQLFile">
+        <results>
+          <test-case description="Data File" name="Test-SQLFile.Data File" executed="True" time="0.1978" asserts="0" success="True" result="Success" />
+          <test-case description="Log File" name="Test-SQLFile.Log File" executed="True" time="0.0152" asserts="0" success="True" result="Success" />
+          <test-case description="Secondary Data Files" name="Test-SQLFile.Secondary Data Files" executed="True" time="1.2844" asserts="0" success="True" result="Success" />
+          <test-case description="SQL Agent Out File" name="Test-SQLFile.SQL Agent Out File" executed="True" time="0.0707" asserts="0" success="True" result="Success" />
+          <test-case description="Data File" name="Test-SQLFile.Data File" executed="True" time="0.0493" asserts="0" success="True" result="Success" />
+          <test-case description="Log File" name="Test-SQLFile.Log File" executed="True" time="0.0179" asserts="0" success="True" result="Success" />
+          <test-case description="Data File" name="Test-SQLFile.Data File" executed="True" time="0.0989" asserts="0" success="True" result="Success" />
+          <test-case description="Log File" name="Test-SQLFile.Log File" executed="True" time="0.0174" asserts="0" success="True" result="Success" />
+          <test-case description="Data File" name="Test-SQLFile.Data File" executed="True" time="0.0891" asserts="0" success="True" result="Success" />
+          <test-case description="Log File" name="Test-SQLFile.Log File" executed="True" time="0.0158" asserts="0" success="True" result="Success" />
+        </results>
+      </test-suite>
+      <test-suite type="TestFixture" name="Test-SQLSecurity" executed="True" result="Success" success="True" time="0.6613" asserts="0" description="Test-SQLSecurity">
+        <results>
+          <test-case description="Domain Account Login" name="Test-SQLSecurity.Domain Account Login" executed="True" time="0.3323" asserts="0" success="True" result="Success" />
+          <test-case description="SQL Service Account Login" name="Test-SQLSecurity.SQL Service Account Login" executed="True" time="0.017" asserts="0" success="True" result="Success" />
+          <test-case description="DBA Group Login" name="Test-SQLSecurity.DBA Group Login" executed="True" time="0.0175" asserts="0" success="True" result="Success" />
+          <test-case description="Removed Old Administrator Login" name="Test-SQLSecurity.Removed Old Administrator Login" executed="True" time="0.0183" asserts="0" success="True" result="Success" />
+          <test-case description="Removed Old Admin Account" name="Test-SQLSecurity.Removed Old Admin Account" executed="True" time="0.1239" asserts="0" success="True" result="Success" />
+          <test-case description="Domain Account Added" name="Test-SQLSecurity.Domain Account Added" executed="True" time="0.021" asserts="0" success="True" result="Success" />
+          <test-case description="SQL Service Account Added" name="Test-SQLSecurity.SQL Service Account Added" executed="True" time="0.0192" asserts="0" success="True" result="Success" />
+          <test-case description="NT Authority\SYSTEM" name="Test-SQLSecurity.NT Authority\SYSTEM" executed="True" time="0.112" asserts="0" success="True" result="Success" />
+        </results>
+      </test-suite>
+      <test-suite type="TestFixture" name="Test-ServerHardening" executed="True" result="Success" success="True" time="1.3181" asserts="0" description="Test-ServerHardening">
+        <results>
+          <test-case description="Orphaned Users" name="Test-ServerHardening.Orphaned Users" executed="True" time="0.2802" asserts="0" success="True" result="Success" />
+          <test-case description="Check Policy on Users" name="Test-ServerHardening.Check Policy on Users" executed="True" time="0.0244" asserts="0" success="True" result="Success" />
+          <test-case description="SA Renamed" name="Test-ServerHardening.SA Renamed" executed="True" time="0.048" asserts="0" success="True" result="Success" />
+          <test-case description="Fred Disabled" name="Test-ServerHardening.Fred Disabled" executed="True" time="0.0197" asserts="0" success="True" result="Success" />
+          <test-case description="Ad Hoc Distributed Queries" name="Test-ServerHardening.Ad Hoc Distributed Queries" executed="True" time="0.071" asserts="0" success="True" result="Success" />
+          <test-case description="clr enabled" name="Test-ServerHardening.clr enabled" executed="True" time="0.02" asserts="0" success="True" result="Success" />
+          <test-case description="cross db ownership chaining" name="Test-ServerHardening.cross db ownership chaining" executed="True" time="0.0166" asserts="0" success="True" result="Success" />
+          <test-case description="Ole Automation Procedures" name="Test-ServerHardening.Ole Automation Procedures" executed="True" time="0.0168" asserts="0" success="True" result="Success" />
+          <test-case description="scan for startup procs" name="Test-ServerHardening.scan for startup procs" executed="True" time="0.0146" asserts="0" success="True" result="Success" />
+          <test-case description="default trace enabled" name="Test-ServerHardening.default trace enabled" executed="True" time="0.0148" asserts="0" success="True" result="Success" />
+          <test-case description="Public Grant Setting for xp_availablemedia" name="Test-ServerHardening.Public Grant Setting for xp_availablemedia" executed="True" time="0.1543" asserts="0" success="True" result="Success" />
+          <test-case description="Public Grant Setting for xp_dirtree" name="Test-ServerHardening.Public Grant Setting for xp_dirtree" executed="True" time="0.0226" asserts="0" success="True" result="Success" />
+          <test-case description="Public Grant Setting for xp_enumgroups" name="Test-ServerHardening.Public Grant Setting for xp_enumgroups" executed="True" time="0.0249" asserts="0" success="True" result="Success" />
+          <test-case description="Public Grant Setting for xp_fixeddrives" name="Test-ServerHardening.Public Grant Setting for xp_fixeddrives" executed="True" time="0.0237" asserts="0" success="True" result="Success" />
+          <test-case description="Public Grant Setting for xp_servicecontrol" name="Test-ServerHardening.Public Grant Setting for xp_servicecontrol" executed="True" time="0.0266" asserts="0" success="True" result="Success" />
+          <test-case description="Public Grant Setting for xp_subdirs" name="Test-ServerHardening.Public Grant Setting for xp_subdirs" executed="True" time="0.0374" asserts="0" success="True" result="Success" />
+          <test-case description="Public Grant Setting for xp_regaddmultistring" name="Test-ServerHardening.Public Grant Setting for xp_regaddmultistring" executed="True" time="0.0361" asserts="0" success="True" result="Success" />
+          <test-case description="Public Grant Setting for xp_regdeletekey" name="Test-ServerHardening.Public Grant Setting for xp_regdeletekey" executed="True" time="0.0723" asserts="0" success="True" result="Success" />
+          <test-case description="Public Grant Setting for xp_regdeletevalue" name="Test-ServerHardening.Public Grant Setting for xp_regdeletevalue" executed="True" time="0.0273" asserts="0" success="True" result="Success" />
+          <test-case description="Public Grant Setting for xp_regenumvalues" name="Test-ServerHardening.Public Grant Setting for xp_regenumvalues" executed="True" time="0.0314" asserts="0" success="True" result="Success" />
+          <test-case description="Public Grant Setting for xp_regremovemultistring" name="Test-ServerHardening.Public Grant Setting for xp_regremovemultistring" executed="True" time="0.029" asserts="0" success="True" result="Success" />
+          <test-case description="Public Grant Setting for xp_regwrite" name="Test-ServerHardening.Public Grant Setting for xp_regwrite" executed="True" time="0.0372" asserts="0" success="True" result="Success" />
+          <test-case description="Checking Custom Setting for xp_regread" name="Test-ServerHardening.Checking Custom Setting for xp_regread" executed="True" time="0.2694" asserts="0" success="True" result="Success" />
+        </results>
+      </test-suite>
+      <test-suite type="TestFixture" name="Test-SQLEmail" executed="True" result="Success" success="True" time="0.7069" asserts="0" description="Test-SQLEmail">
+        <results>
+          <test-case description="Profile Name" name="Test-SQLEmail.Profile Name" executed="True" time="0.5044" asserts="0" success="True" result="Success" />
+          <test-case description="Profile Status" name="Test-SQLEmail.Profile Status" executed="True" time="0.0208" asserts="0" success="True" result="Success" />
+          <test-case description="Account Name" name="Test-SQLEmail.Account Name" executed="True" time="0.0917" asserts="0" success="True" result="Success" />
+          <test-case description="Email Address" name="Test-SQLEmail.Email Address" executed="True" time="0.0206" asserts="0" success="True" result="Success" />
+          <test-case description="Display Name" name="Test-SQLEmail.Display Name" executed="True" time="0.0201" asserts="0" success="True" result="Success" />
+          <test-case description="ReplyTo Address" name="Test-SQLEmail.ReplyTo Address" executed="True" time="0.0203" asserts="0" success="True" result="Success" />
+          <test-case description="Email Server Name" name="Test-SQLEmail.Email Server Name" executed="True" time="0.0291" asserts="0" success="True" result="Success" />
+        </results>
+      </test-suite>
+      <test-suite type="TestFixture" name="Test-JackDB" executed="True" result="Failure" success="False" time="0.4695" asserts="0" description="Test-JackDB">
+        <results>
+          <test-case description="JackDB Logins" name="Test-JackDB.JackDB Logins" executed="True" time="0.2567" asserts="0" success="False" result="Failure">
+            <failure>
+              <message>Expected: value to not be empty</message>
+              <stack-trace>at line: 849 in C:\scripts\tests\Stack20Suite.Tests.ps1
+849:                 $Server.Logins | Where-Object {$_.Name -eq $Login} | Should Not BeNullOrEmpty
+</stack-trace>
+            </failure>
+          </test-case>
+          <test-case description="Logins Mapped to Model" name="Test-JackDB.Logins Mapped to Model" executed="True" time="0.033" asserts="0" success="False" result="Failure">
+            <failure>
+              <message>Expected: value to not be empty</message>
+              <stack-trace>at line: 853 in C:\scripts\tests\Stack20Suite.Tests.ps1
+853:                 $ModelUsers | Should Not BeNullOrEmpty
+</stack-trace>
+            </failure>
+          </test-case>
+          <test-case description="Login Roles" name="Test-JackDB.Login Roles" executed="True" time="0.0316" asserts="0" success="False" result="Failure">
+            <failure>
+              <message>You cannot call a method on a null-valued expression.</message>
+              <stack-trace>at line: 859 in C:\scripts\tests\Stack20Suite.Tests.ps1</stack-trace>
+            </failure>
+          </test-case>
+          <test-case description="JackDB Logins" name="Test-JackDB.JackDB Logins" executed="True" time="0.0242" asserts="0" success="False" result="Failure">
+            <failure>
+              <message>Expected: value to not be empty</message>
+              <stack-trace>at line: 849 in C:\scripts\tests\Stack20Suite.Tests.ps1
+849:                 $Server.Logins | Where-Object {$_.Name -eq $Login} | Should Not BeNullOrEmpty
+</stack-trace>
+            </failure>
+          </test-case>
+          <test-case description="Logins Mapped to Model" name="Test-JackDB.Logins Mapped to Model" executed="True" time="0.0223" asserts="0" success="False" result="Failure">
+            <failure>
+              <message>Expected: value to not be empty</message>
+              <stack-trace>at line: 853 in C:\scripts\tests\Stack20Suite.Tests.ps1
+853:                 $ModelUsers | Should Not BeNullOrEmpty
+</stack-trace>
+            </failure>
+          </test-case>
+          <test-case description="Login Roles" name="Test-JackDB.Login Roles" executed="True" time="0.0174" asserts="0" success="False" result="Failure">
+            <failure>
+              <message>You cannot call a method on a null-valued expression.</message>
+              <stack-trace>at line: 863 in C:\scripts\tests\Stack20Suite.Tests.ps1</stack-trace>
+            </failure>
+          </test-case>
+          <test-case description="JackDB Logins" name="Test-JackDB.JackDB Logins" executed="True" time="0.0239" asserts="0" success="False" result="Failure">
+            <failure>
+              <message>Expected: value to not be empty</message>
+              <stack-trace>at line: 849 in C:\scripts\tests\Stack20Suite.Tests.ps1
+849:                 $Server.Logins | Where-Object {$_.Name -eq $Login} | Should Not BeNullOrEmpty
+</stack-trace>
+            </failure>
+          </test-case>
+          <test-case description="Logins Mapped to Model" name="Test-JackDB.Logins Mapped to Model" executed="True" time="0.0344" asserts="0" success="False" result="Failure">
+            <failure>
+              <message>Expected: value to not be empty</message>
+              <stack-trace>at line: 853 in C:\scripts\tests\Stack20Suite.Tests.ps1
+853:                 $ModelUsers | Should Not BeNullOrEmpty
+</stack-trace>
+            </failure>
+          </test-case>
+          <test-case description="Login Roles" name="Test-JackDB.Login Roles" executed="True" time="0.026" asserts="0" success="False" result="Failure">
+            <failure>
+              <message>You cannot call a method on a null-valued expression.</message>
+              <stack-trace>at line: 859 in C:\scripts\tests\Stack20Suite.Tests.ps1</stack-trace>
+            </failure>
+          </test-case>
+        </results>
+      </test-suite>
+      <test-suite type="TestFixture" name="Test-NetFirewallProfile" executed="True" result="Success" success="True" time="4.6755" asserts="0" description="Test-NetFirewallProfile">
+        <results>
+          <test-case description="Domain Net Firewall Profile" name="Test-NetFirewallProfile.Domain Net Firewall Profile" executed="True" time="4.5957" asserts="0" success="True" result="Success" />
+          <test-case description="Public Net Firewall Profile" name="Test-NetFirewallProfile.Public Net Firewall Profile" executed="True" time="0.0458" asserts="0" success="True" result="Success" />
+          <test-case description="Private Net Firewall Profile" name="Test-NetFirewallProfile.Private Net Firewall Profile" executed="True" time="0.034" asserts="0" success="True" result="Success" />
+        </results>
+      </test-suite>
+      <test-suite type="TestFixture" name="Test-PageFileSettings" executed="True" result="Success" success="True" time="0.2666" asserts="0" description="Test-PageFileSettings">
+        <results>
+          <test-case description="Initial Size" name="Test-PageFileSettings.Initial Size" executed="True" time="0.1259" asserts="0" success="True" result="Success" />
+          <test-case description="Maximum Size" name="Test-PageFileSettings.Maximum Size" executed="True" time="0.0533" asserts="0" success="True" result="Success" />
+          <test-case description="Removed from C Drive" name="Test-PageFileSettings.Removed from C Drive" executed="True" time="0.0301" asserts="0" success="True" result="Success" />
+          <test-case description="Set to E Drive" name="Test-PageFileSettings.Set to E Drive" executed="True" time="0.0234" asserts="0" success="True" result="Success" />
+          <test-case description="Only Set to E Drive" name="Test-PageFileSettings.Only Set to E Drive" executed="True" time="0.0339" asserts="0" success="True" result="Success" />
+        </results>
+      </test-suite>
+      <test-suite type="TestFixture" name="Test-NICSettings" executed="True" result="Success" success="True" time="4.6219" asserts="0" description="Test-NICSettings">
+        <results>
+          <test-case description="IPV4 Checksum Offload" name="Test-NICSettings.IPV4 Checksum Offload" executed="True" time="4.4744" asserts="0" success="True" result="Success" />
+          <test-case description="Large Send Offload V2 (IPv4)" name="Test-NICSettings.Large Send Offload V2 (IPv4)" executed="True" time="0.033" asserts="0" success="True" result="Success" />
+          <test-case description="TCP Checksum Offload (IPv4)" name="Test-NICSettings.TCP Checksum Offload (IPv4)" executed="True" time="0.0266" asserts="0" success="True" result="Success" />
+          <test-case description="UDP Checksum Offload (IPv4)" name="Test-NICSettings.UDP Checksum Offload (IPv4)" executed="True" time="0.0264" asserts="0" success="True" result="Success" />
+          <test-case description="NetSH IP TaskOffload" name="Test-NICSettings.NetSH IP TaskOffload" executed="True" time="0.0161" asserts="0" success="True" result="Success" />
+          <test-case description="NetSH TCP Chimney Offload" name="Test-NICSettings.NetSH TCP Chimney Offload" executed="True" time="0.0152" asserts="0" success="True" result="Success" />
+          <test-case description="NetSH TCP RSS" name="Test-NICSettings.NetSH TCP RSS" executed="True" time="0.0152" asserts="0" success="True" result="Success" />
+          <test-case description="NetSH TCP NetDMA" name="Test-NICSettings.NetSH TCP NetDMA" executed="True" time="0.015" asserts="0" success="True" result="Success" />
+        </results>
+      </test-suite>
+      <test-suite type="TestFixture" name="Test-WindowsClusterNode" executed="True" result="Success" success="True" time="3.4982" asserts="0" description="Test-WindowsClusterNode">
+        <results>
+          <test-case description="The node should be joined to the cluster:" name="Test-WindowsClusterNode.The node should be joined to the cluster:" executed="True" time="2.5589" asserts="0" success="True" result="Success" />
+          <test-case description="The cluster group should be online:" name="Test-WindowsClusterNode.The cluster group should be online:" executed="True" time="0.1311" asserts="0" success="True" result="Success" />
+          <test-case description="The node should be in the 'Up' state:" name="Test-WindowsClusterNode.The node should be in the 'Up' state:" executed="True" time="0.0248" asserts="0" success="True" result="Success" />
+          <test-case description="The node should have an IP address resource with the correct name:" name="Test-WindowsClusterNode.The node should have an IP address resource with the correct name:" executed="True" time="0.0464" asserts="0" success="True" result="Success" />
+          <test-case description="The node should have a valid IP address as a parameter to the IP address Resource:" name="Test-WindowsClusterNode.The node should have a valid IP address as a parameter to the IP address Resource:" executed="True" time="0.6182" asserts="0" success="True" result="Success" />
+          <test-case description="The node should have its IP address resource listed as a dependency in the Cluster Name resource:" name="Test-WindowsClusterNode.The node should have its IP address resource listed as a dependency in the Cluster Name resource:" executed="True" time="0.0761" asserts="0" success="True" result="Success" />
+          <test-case description="The node should be the owner of its IP address resource:" name="Test-WindowsClusterNode.The node should be the owner of its IP address resource:" executed="True" time="0.0427" asserts="0" success="True" result="Success" />
+        </results>
+      </test-suite>
+      <test-suite type="TestFixture" name="Test-AGNode" executed="True" result="Success" success="True" time="0.2463" asserts="0" description="Test-AGNode">
+        <results>
+          <test-case description="The Cluster should have an online AG resource:" name="Test-AGNode.The Cluster should have an online AG resource:" executed="True" time="0.2023" asserts="0" success="True" result="Success" />
+          <test-case description="The current node should be an AG replica:" name="Test-AGNode.The current node should be an AG replica:" executed="True" time="0.044" asserts="0" success="True" result="Success" />
+        </results>
+      </test-suite>
+      <test-suite type="TestFixture" name="Test-ListenerNode" executed="True" result="Success" success="True" time="0.4202" asserts="0" description="Test-ListenerNode">
+        <results>
+          <test-case description="The Cluster should have an online Listener resource:" name="Test-ListenerNode.The Cluster should have an online Listener resource:" executed="True" time="0.396" asserts="0" success="True" result="Success" />
+          <test-case description="The current node should have an IP address registered in the listener:" name="Test-ListenerNode.The current node should have an IP address registered in the listener:" executed="True" time="0.0242" asserts="0" success="True" result="Success" />
+        </results>
+      </test-suite>
+      <test-suite type="TestFixture" name="Test-TrendMicroAgent" executed="True" result="Success" success="True" time="1.7818" asserts="0" description="Test-TrendMicroAgent">
+        <results>
+          <test-case description="The DSA Agent should be running:" name="Test-TrendMicroAgent.The DSA Agent should be running:" executed="True" time="0.0487" asserts="0" success="True" result="Success" />
+          <test-case description="The DSA Agent should be activated:" name="Test-TrendMicroAgent.The DSA Agent should be activated:" executed="True" time="1.7331" asserts="0" success="True" result="Success" />
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>
